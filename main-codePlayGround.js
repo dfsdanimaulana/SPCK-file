@@ -497,4 +497,10 @@ var bocil = new Person();
 
 cl(bayi)
 var juta = 10000000;
-cl(juta.rupiah())
+cl(juta.rupiah());
+
+// count mean array data round down
+
+const meanArray = arg =>{
+  return Math.floor(arg.reduce((a,b)=>a+b)/arg.length);
+}
