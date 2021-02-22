@@ -1,0 +1,13 @@
+body {
+    font-size: 15pt;
+}
+
+.nama span{
+    font-size: 50px;
+    color: blue;
+    display: inline-block;
+}
+
+.nama span:hover {
+    transform: scale(2);
+}
